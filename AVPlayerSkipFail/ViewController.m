@@ -38,7 +38,11 @@ BOOL AVPlayerItemCanSeekToTime(AVPlayerItem *playerItem, CMTime time) {
   [super viewDidLoad];
   
   NSURL *url = [[NSBundle mainBundle] URLForResource:@"3971767414857652294" withExtension:@"mp3"];
-  AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithURL:url];
+  AVAsset *asset = [AVAsset assetWithURL:url];
+  if (!asset.isPlayable) {
+    NSLog(@"asset is not playable");
+  }
+  AVPlayerItem *playerItem = [[AVPlayerItem alloc] initWithAsset:asset];
   [playerItem seekToTime:CMTimeMake(120500, 100)];
   
   self.player = [[AVQueuePlayer alloc] initWithPlayerItem:playerItem];
