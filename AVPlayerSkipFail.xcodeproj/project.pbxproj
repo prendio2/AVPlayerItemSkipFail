@@ -15,6 +15,7 @@
 		93EA226F1CA166F60064B4A0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 93EA226D1CA166F60064B4A0 /* LaunchScreen.storyboard */; };
 		93EA227A1CA166F60064B4A0 /* AVPlayerSkipFailTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA22791CA166F60064B4A0 /* AVPlayerSkipFailTests.m */; };
 		93EA22851CA166F70064B4A0 /* AVPlayerSkipFailUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 93EA22841CA166F70064B4A0 /* AVPlayerSkipFailUITests.m */; };
+		93EA22951CA1732B0064B4A0 /* 3971767414857652294.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 93EA22941CA1732B0064B4A0 /* 3971767414857652294.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		93EA22801CA166F60064B4A0 /* AVPlayerSkipFailUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AVPlayerSkipFailUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		93EA22841CA166F70064B4A0 /* AVPlayerSkipFailUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AVPlayerSkipFailUITests.m; sourceTree = "<group>"; };
 		93EA22861CA166F70064B4A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93EA22941CA1732B0064B4A0 /* 3971767414857652294.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = 3971767414857652294.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		93EA225E1CA166F60064B4A0 /* AVPlayerSkipFail */ = {
 			isa = PBXGroup;
 			children = (
+				93EA22941CA1732B0064B4A0 /* 3971767414857652294.mp3 */,
 				93EA22621CA166F60064B4A0 /* AppDelegate.h */,
 				93EA22631CA166F60064B4A0 /* AppDelegate.m */,
 				93EA22651CA166F60064B4A0 /* ViewController.h */,
@@ -245,6 +248,7 @@
 			files = (
 				93EA226F1CA166F60064B4A0 /* LaunchScreen.storyboard in Resources */,
 				93EA226C1CA166F60064B4A0 /* Assets.xcassets in Resources */,
+				93EA22951CA1732B0064B4A0 /* 3971767414857652294.mp3 in Resources */,
 				93EA226A1CA166F60064B4A0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
